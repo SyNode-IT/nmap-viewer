@@ -35,7 +35,7 @@ fi
 
 # Retrieve the Dockerfile
 echo "Retrieving the Dockerfile..."
-$downloader https://raw.githubusercontent.com/SyNode-IT/nmap-viewer/docker/heads/master/public/Dockerfile
+$downloader https://raw.githubusercontent.com/SyNode-IT/nmap-viewer/refs/heads/master/docker/Dockerfile
 
 if [[ ! -f Dockerfile ]]; then
     echo "Failed to download Dockerfile."
