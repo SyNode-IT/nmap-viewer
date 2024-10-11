@@ -53,4 +53,4 @@ fi
 
 # Run the Docker container
 echo "Running the Docker container on port 3001..."
-docker run -p 3001:3001 nmap-viewer &
+docker run --name nmap-viewer -p 3001:3001 nmap-viewer &
